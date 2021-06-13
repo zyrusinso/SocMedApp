@@ -1,0 +1,11 @@
+#This is for the Image resizing plugin for laravel using composer
+
+composer require intervention/image
+
+#For policy
+php artisan make:policy ProfilePolicy -m Profile
+
+
+#Short hand if Statement
+
+$imagePath = ()? '' : ''
